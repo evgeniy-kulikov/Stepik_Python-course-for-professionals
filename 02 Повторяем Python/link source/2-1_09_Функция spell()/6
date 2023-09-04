@@ -1,0 +1,2 @@
+words = ['aaaaa', 'aaaaa', 'aaaaa', 'aaaaa', 'aaaaa']
+print(spell(*words))

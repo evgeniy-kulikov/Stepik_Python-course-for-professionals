@@ -1,0 +1,2 @@
+words = ['fruit', 'football', 'February', 'forest', 'Family']
+print(spell(*words))

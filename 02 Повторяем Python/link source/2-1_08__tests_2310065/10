@@ -1,0 +1,1 @@
+print(index_of_nearest([1, 1, 1, 1, 1], 1))

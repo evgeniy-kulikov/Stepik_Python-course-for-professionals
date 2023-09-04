@@ -1,0 +1,2 @@
+words = ['a']
+print(spell(*words))

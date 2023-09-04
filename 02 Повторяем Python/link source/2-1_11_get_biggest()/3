@@ -1,0 +1,1 @@
+print(get_biggest([7, 71, 72]))

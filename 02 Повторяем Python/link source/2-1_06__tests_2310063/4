@@ -1,0 +1,1 @@
+print(filter_anagrams('стекло', []))

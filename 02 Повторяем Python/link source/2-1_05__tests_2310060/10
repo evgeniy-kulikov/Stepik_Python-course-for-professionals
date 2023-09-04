@@ -1,0 +1,1 @@
+print(convert('AbCdEf12345'))

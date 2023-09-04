@@ -1,0 +1,3 @@
+word = 'abba'
+anagrams = ['aaab', 'dbcd', 'bdaa', 'badb']
+print(filter_anagrams(word, anagrams))
