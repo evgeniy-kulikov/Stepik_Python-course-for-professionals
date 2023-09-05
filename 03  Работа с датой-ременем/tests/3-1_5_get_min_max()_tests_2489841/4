@@ -1,0 +1,3 @@
+dates = [date(1999, 9, 9)]
+
+print(get_min_max(dates))

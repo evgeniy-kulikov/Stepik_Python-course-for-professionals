@@ -1,0 +1,1 @@
+print(get_min_max([date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1), date(1, 1, 1)]))
