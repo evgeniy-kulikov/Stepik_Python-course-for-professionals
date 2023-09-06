@@ -1,0 +1,1 @@
+print(is_correct(32, 10, 2021))

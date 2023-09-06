@@ -1,0 +1,2 @@
+dates = [date(1992, 9, 20), date(1992, 8, 21), date(1992, 7, 22), date(1992, 10, 19)]
+print_good_dates(dates)
