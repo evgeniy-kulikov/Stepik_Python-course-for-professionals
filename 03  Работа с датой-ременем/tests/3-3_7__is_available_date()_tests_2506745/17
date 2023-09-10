@@ -1,0 +1,3 @@
+dates = ['14.09.2022-14.10.2022']
+some_date = '14.11.2022'
+print(is_available_date(dates, some_date))
