@@ -256,7 +256,7 @@ https://ru.wikipedia.org/wiki/ISO_8601
 """"""
 
 
-# 01
+#  3.1-01
 """
 Вывести текущую дату в ISO формате (YYYY-MM-DD)
 """
@@ -272,7 +272,7 @@ from datetime import datetime
 print(datetime.now().strftime('%Y-%m-%d'))  # 2023-09-04
 
 
-#  02
+#  3.1-02
 """
 Вывести день недели (начиная с 0) для даты 24 августа 1992 года,
 """
@@ -286,7 +286,7 @@ hurricane_andrew = date(1992, 8, 24)
 print(hurricane_andrew.weekday())  # 0
 
 
-#  03
+#  3.1-03
 """
 https://stepik.org/lesson/609341/step/18?unit=604560
 florida_hurricane_dates = [date(1987, 11, 15), date(1988, 3, 12), date(1976, 5, 12)]
@@ -310,7 +310,7 @@ for hurricane in florida_hurricane_dates:
 print(early_hurricanes)  # 10
 
 
-#  04
+#  3.1-04
 """
 https://stepik.org/lesson/609341/step/19?unit=604560
 1 квартал	январь, февраль, март
@@ -351,7 +351,7 @@ for el in dates:
     print(f'{el.year}-Q{ceil(el.month / 3)}')
 
 
-#  05
+#  3.1-05
 """
 Реализуйте функцию get_min_max(), которая принимает один аргумент:
 dates — список дат (тип date)
@@ -385,7 +385,7 @@ print(get_min_max(dates))
 # (datetime.date(1992, 6, 10), datetime.date(2021, 10, 5))
 
 
-#  06
+#  3.1-06
 """
 Реализуйте функцию get_date_range(), которая принимает два аргумента в следующем порядке:
 start — начальная дата, тип date
@@ -413,9 +413,7 @@ print(*get_date_range(date1, date2), sep='\n')
 # 2021-10-05
 
 
-from datetime import date
-
-#  07
+#  3.1-07
 """
 Реализуйте функцию saturdays_between_two_dates(), которая принимает два аргумента в следующем порядке:
 start — начальная дата, тип date
@@ -444,4 +442,3 @@ def saturdays_between_two_dates(start: date, end: date) -> int:
 date1 = date(2021, 11, 1)
 date2 = date(2021, 11, 22)
 print(saturdays_between_two_dates(date1, date2))  # 3
-
