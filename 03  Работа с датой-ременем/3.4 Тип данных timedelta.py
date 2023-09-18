@@ -51,7 +51,7 @@ delta2 = timedelta(seconds=-10, weeks=-2)   # -15 days, 23:59:50
 """ Атрибуты days, seconds, microseconds и метод total_seconds() """
 
 # тип timedelta внутренне хранит только сочетание days, seconds, microseconds,
-# которые можно получить с помощью одноименных атрибутов  (всего три атрибута).
+# которые можно получить с помощью одноименных атрибутов (всего три атрибута).
 
 from datetime import timedelta
 
