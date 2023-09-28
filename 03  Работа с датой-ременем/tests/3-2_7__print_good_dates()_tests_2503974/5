@@ -1,2 +1,0 @@
-dates = [date(1257, 8, 22), date(1765, 8, 23), date(1999, 9, 9), date(1992, 6, 23)]
-print_good_dates(dates)

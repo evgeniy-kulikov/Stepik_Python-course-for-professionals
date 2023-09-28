@@ -24,4 +24,39 @@ for row in lst_2d:
 print(lst_1d)
 # ['1', '2', '3', 'a', 'b', 'c', '*', '=', '%']
 
-"""  """
+
+
+# метод calendar.shufutinskiy() всегда возвращает 3 сентября
+"""
+>>> import calendar
+... import random
+... import locale
+>>> locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
+'ru_RU.UTF-8'
+>>> year = random.randint(1993, 9999)
+>>> month = random.randint(1, 12)
+>>> calendar.shufutinskiy(year, month)
+3 сентября
+
+
+
+import calendar
+import locale
+import random
+
+locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
+
+year = random.randint(1993, 9999)
+print(calendar.shufutinskiy(year))
+
+#  3 сентябряimport calendar
+import locale
+import random
+
+locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
+
+year = random.randint(1993, 9999)
+print(calendar.shufutinskiy(year))
+
+#  3 сентября
+"""

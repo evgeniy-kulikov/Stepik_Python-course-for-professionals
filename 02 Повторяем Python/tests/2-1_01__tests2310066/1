@@ -1,3 +1,0 @@
-card = '1234567890123456'
-
-print(hide_card(card))

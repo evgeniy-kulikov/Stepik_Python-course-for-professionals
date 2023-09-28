@@ -1,4 +1,0 @@
-word = 'abba'
-anagrams = ['aabb', 'abcd', 'bbaa', 'dada']
-
-print(filter_anagrams(word, anagrams))

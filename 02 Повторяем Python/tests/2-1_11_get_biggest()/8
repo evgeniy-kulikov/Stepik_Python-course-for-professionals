@@ -1,1 +1,0 @@
-print(get_biggest([62, 626]))
