@@ -37,26 +37,5 @@ print(lst_1d)
 >>> month = random.randint(1, 12)
 >>> calendar.shufutinskiy(year, month)
 3 сентября
-
-
-
-import calendar
-import locale
-import random
-
-locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
-
-year = random.randint(1993, 9999)
-print(calendar.shufutinskiy(year))
-
-#  3 сентябряimport calendar
-import locale
-import random
-
-locale.setlocale(locale.LC_ALL, 'ru_RU.UTF-8')
-
-year = random.randint(1993, 9999)
-print(calendar.shufutinskiy(year))
-
-#  3 сентября
 """
+
