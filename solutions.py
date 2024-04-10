@@ -1,4 +1,22 @@
 """ Полезные решения"""
+
+"""Двойной уровень вложенности ключей создаваемого словаря"""
+data = {'k_out_1': "a", 'k_in_1': "b", "k_ls": 1}
+res = dict()
+
+for el in data:
+    res.setdefault(el['k_out_1'], {}).setdefault(el['k_in_1'], [])
+    res[el['k_out_1']][el['k_in_1']] += [el['k_ls']]
+
+res = {'k_out_1': {'k_in_1': [1]}}
+
+
+"""получить первую пару ключ-значение словаря"""
+data = {'k_1': "v_1", 'k_2': "v_1"}
+key_val = next(iter(data.items()))
+print(f'{key_val[0]}: {key_val[1]}')
+
+
 """сортировка списка по длине строкового элемента"""
 ls = ['dddd', 'a', 'bb', 'ccc']
 ls_sort_len = sorted(ls, key=len)
