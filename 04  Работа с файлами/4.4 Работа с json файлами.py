@@ -5,8 +5,8 @@
 Python-объект --> json      сериализация
 json --> Python-объект      десериализация
 
-Python-объект --> json трока        dumps()
-json трока --> Python-объект        loads()
+Python-объект --> json строка        dumps()
+json строка --> Python-объект        loads()
 
 Python-объект --> файл с json данными        dump()
 файл с json данными --> Python-объект        load()
