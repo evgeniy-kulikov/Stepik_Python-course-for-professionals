@@ -413,7 +413,7 @@ from zipfile import ZipFile
 
 def convert_bytes(size):
     cnt = 0
-    while size // 1024 > 0:
+    while size // 1024 > 0 and cnt < 3:
         size /= 1024
         cnt += 1
     return f"{round(size)} {['B', 'KB', 'MB', 'GB'][cnt]}"
