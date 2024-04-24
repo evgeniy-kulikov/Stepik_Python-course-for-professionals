@@ -321,8 +321,6 @@ with open('prices.json', encoding='utf-8') as file:
 print(sum(cnt[k] * v for k, v in price.items()))
 
 
-
-
 #  6.8-13
 """
 Бесплатные курсы берут свое
