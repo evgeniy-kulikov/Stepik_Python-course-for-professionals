@@ -38,6 +38,7 @@ def numbers_sum(elems):
 origin_print = print
 
 def print(*args, sep=' ', end='\n'):
+    # args = (str(el).upper() for el in args)
     args = (el.upper() if isinstance(el, str) else el for el in args)
     origin_print(*args, sep=sep.upper(), end=end.upper())
 
